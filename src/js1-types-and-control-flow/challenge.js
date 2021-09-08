@@ -20,8 +20,8 @@ const lastName = "Smith";
 
 export const createFullName = () => {
   // Write your code here
+  return name = firstName + lastName
 };
-
 /**
  * A function that programmatically returns the largest number.
  * This means if the numbers were different it would still return the largest one.
