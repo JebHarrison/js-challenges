@@ -20,7 +20,9 @@ const lastName = "Smith";
 
 export const createFullName = () => {
   // Write your code here
-  return fullName = firstName + lastName
+  const returnString = firstName + " " + lastName;
+
+  return returnString;
 };
 /**
  * A function that programmatically returns the largest number.
@@ -33,6 +35,10 @@ const largeNumber2 = 200;
 
 export const findLargestNumber = () => {
   // Write your code here
+  if (largeNumber1 > largeNumber2) {
+  return largeNumber1;
+} else {
+    return largeNumber2;
 };
 
 /**
@@ -131,4 +137,4 @@ const pascalCaseVariableName = "IWantToBeSnakeCase";
 
 export const convertPascalCaseToSnakeCase = () => {
   // Write your code here
-};
+}; 
