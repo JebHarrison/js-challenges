@@ -70,6 +70,7 @@ const password = "thisIsMyVeryLongPassword123456789";
 
 export const findLengthOfPassword = () => {
   // Write your code here
+  return password.length;
 };
 
 /**
