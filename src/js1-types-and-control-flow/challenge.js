@@ -52,6 +52,10 @@ const addNumber2 = 24;
 
 export const addNumbers = () => {
   // Write your code here
+  const sum = addNumber1 + addNumber2;
+  
+  return sum;
+
 };
 
 /* Intermediate Challenges */
@@ -137,4 +141,4 @@ const pascalCaseVariableName = "IWantToBeSnakeCase";
 
 export const convertPascalCaseToSnakeCase = () => {
   // Write your code here
-}; 
+};
