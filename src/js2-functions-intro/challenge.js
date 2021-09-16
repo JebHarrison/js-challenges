@@ -18,6 +18,7 @@
  */
 export const createFullName = (firstName, lastName) => {
   /* Write your code here */
+  return `${firstName} ${lastName}`;
 };
 
 /**
