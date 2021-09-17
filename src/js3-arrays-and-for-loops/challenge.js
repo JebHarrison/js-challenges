@@ -22,7 +22,8 @@
  */
 
 export const createRecipeString = (ingredientsArr) => {
-  return;
+  
+  return ingredientsArr.join("+");
 };
 
 /**
