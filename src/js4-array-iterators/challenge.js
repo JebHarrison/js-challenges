@@ -12,7 +12,9 @@
 /**
  * Foundation Challenges
  */
-
+// MAp -> gives us a new array -> allows us to use a function and to apply each item in the array
+// filter -> new array -> each item has to pass a condition
+//  forEach -> read only -> gives you access to each item in the array
 /**
  * A function that takes an array of Booleans and then removes the false values from the given array.
  * It should create a new array only consiting of the true values.
@@ -22,7 +24,10 @@
  */
 
 export const removeFalseValues = (booleanArr) => {
-  return;
+    const trueValues = booleanArr.filter(Boolean => {
+      return Boolean === true;
+    });
+  return trueValues;
 };
 
 /**
