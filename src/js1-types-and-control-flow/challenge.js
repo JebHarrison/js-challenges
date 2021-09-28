@@ -35,9 +35,10 @@ export const findLargestNumber = () => {
   // Write your code here
   if (largeNumber1 > largeNumber2) {
   return largeNumber1;
-} else {
+  } else {
     return largeNumber2;
-};
+  }
+} 
 
 /**
  * A function that programmatically adds two numbers together.
@@ -49,11 +50,8 @@ const addNumber1 = 12;
 const addNumber2 = 24;
 
 export const addNumbers = () => {
-  // Write your code here
-  const sum = addNumber1 + addNumber2;
-  
-  return sum;
-
+  const addNumbers = addNumber1 + addNumber2
+  return addNumbers
 };
 
 /* Intermediate Challenges */
@@ -68,7 +66,7 @@ const password = "thisIsMyVeryLongPassword123456789";
 
 export const findLengthOfPassword = () => {
   // Write your code here
-  return password.length;
+ return password.length
 };
 
 /**
