@@ -22,7 +22,11 @@
  */
 
 export const totalScoresArr = (scoresArr) => {
-  return;
+  const totalScores = scoresArr.reduce((accumalator, current) => {
+    return accumalator + current;
+  }, 0);
+
+  return totalScores;
 };
 
 /**
