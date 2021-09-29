@@ -83,7 +83,7 @@ const thing = "I am a thing";
 
 export const findType = () => {
   // Write your code here
-  const thingType = typeof thing; 
+  const thingType = thing; 
 
   if (thingType === "string"){
     return "this is a string";
