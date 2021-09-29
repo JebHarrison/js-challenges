@@ -83,14 +83,15 @@ const thing = "I am a thing";
 
 export const findType = () => {
   // Write your code here
-  if (thing === "string"){
+  const thingType = typeof thing;
+  if (thingType === "string"){
     return "this is a string";
-  } else if (thing === "number"){
+  } else if (thingType === "number"){
     return "this is a number";
-  } else if (thing === "boleen"){
+  } else if (thingType === "boleen"){
     return "boleen";
   } else {
-    return "I don't know what this thing is";
+    return "I don't know whatthis thing is";
   }
 };
 
@@ -105,7 +106,10 @@ const nameTagOption = "Timothy";
 
 export const getIsValidOnNameTag = () => {
   // Write your code here
-};
+  const isValidName = nameTagOption.length <= 8 && firstLetterOfName.UpperCase();
+  const firstLetterOfName = nameTagOption.substring(1);
+
+  return isValidName;
 
 /* Advanced Challenges */
 
