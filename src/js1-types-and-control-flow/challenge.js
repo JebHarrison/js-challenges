@@ -83,17 +83,17 @@ const thing = "I am a thing";
 
 export const findType = () => {
   // Write your code here
-  const thingType = typeof thing;
-  if (thingType === "string"){
-    return "this is a string";
-  } else if (thingType === "number"){
-    return "this is a number";
-  } else if (thingType === "boleen"){
-    return "boleen";
-  } else {
-    return "I don't know whatthis thing is";
-  }
-};
+//   const thingType = typeof thing;
+//   if (thingType === "string"){
+//     return "this is a string";
+//   } else if (thingType === "number"){
+//     return "this is a number";
+//   } else if (thingType === "boleen"){
+//     return "boleen";
+//   } else {
+//     return "I don't know whatthis thing is";
+//   }
+// };
 
 /**
  * A function to programmatically decide if a name is suitable for a name tag.
@@ -107,9 +107,11 @@ const nameTagOption = "Timothy";
 export const getIsValidOnNameTag = () => {
   // Write your code here
   const isValidName = nameTagOption.length <= 8 && firstLetterOfName.UpperCase();
-  const firstLetterOfName = nameTagOption.substring(1);
+  const firstLetterOfName = nameTagOption.substring(0,1);
 
   return isValidName;
+};
+};
 
 /* Advanced Challenges */
 
@@ -123,6 +125,9 @@ const stringToConvert = "14.45";
 
 export const convertStringToNumber = () => {
   // Write your code here
+  const convertedString = parseInt("14.45", 14.45);
+
+  return convertedString; 
 };
 
 /**
