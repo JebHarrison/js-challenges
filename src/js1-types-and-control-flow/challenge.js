@@ -83,13 +83,11 @@ const thing = "I am a thing";
 
 export const findType = () => {
   // Write your code here
-  const thingType = thing; 
-
-  if (thingType === "string"){
+  if (thing === "string"){
     return "this is a string";
-  } else if (thingType === "number"){
+  } else if (thing === "number"){
     return "this is a number";
-  } else if (thingType === "boleen"){
+  } else if (thing === "boleen"){
     return "boleen";
   } else {
     return "I don't know what this thing is";
