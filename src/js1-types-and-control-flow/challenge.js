@@ -141,7 +141,10 @@ const stringWithUppercaseLetters = "I Am A String With Uppercase Letters";
 
 export const getHasUppercaseLetters = () => {
   // Write your code here
-  let
+
+  const regex = /[A-Z]/;
+  const returnUppercase = regex.test(stringWithUppercaseLetters);
+  return returnUppercase;
 };
 
 /* Expert Challenge */
