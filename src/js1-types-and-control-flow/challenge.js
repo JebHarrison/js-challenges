@@ -38,7 +38,7 @@ export const findLargestNumber = () => {
   } else {
     return largeNumber2;
   }
-} 
+}
 
 /**
  * A function that programmatically adds two numbers together.
@@ -83,17 +83,17 @@ const thing = "I am a thing";
 
 export const findType = () => {
   // Write your code here
-//   const thingType = typeof thing;
-//   if (thingType === "string"){
-//     return "this is a string";
-//   } else if (thingType === "number"){
-//     return "this is a number";
-//   } else if (thingType === "boleen"){
-//     return "boleen";
-//   } else {
-//     return "I don't know whatthis thing is";
-//   }
-// };
+  const thingType = typeof thing;
+  if (thingType === "string"){
+    return "This is a string";
+  } else if (thingType === "number"){
+    return "this is a number";
+  } else if (thingType === "boleen"){
+    return "boleen";
+  } else {
+    return "I don't know whatthis thing is";
+  }
+};
 
 /**
  * A function to programmatically decide if a name is suitable for a name tag.
@@ -102,16 +102,15 @@ export const findType = () => {
  *
  * @returns {boolean} true || false
  */
-const nameTagOption = "Timothy";
 
 export const getIsValidOnNameTag = () => {
-  // Write your code here
-  const isValidName = nameTagOption.length <= 8 && firstLetterOfName.UpperCase();
-  const firstLetterOfName = nameTagOption.substring(0,1);
-
-  return isValidName;
-};
-};
+  let name = "Timothy";
+  if (name.length <= 8 && name.substring(0,1).toUpperCase()){
+    return true;
+  } else {
+    return false;
+  }
+} 
 
 /* Advanced Challenges */
 
@@ -125,7 +124,7 @@ const stringToConvert = "14.45";
 
 export const convertStringToNumber = () => {
   // Write your code here
-  const convertedString = parseInt("14.45", 14.45);
+  const convertedString = parseFloat("14.45");
 
   return convertedString; 
 };
@@ -142,6 +141,7 @@ const stringWithUppercaseLetters = "I Am A String With Uppercase Letters";
 
 export const getHasUppercaseLetters = () => {
   // Write your code here
+  let
 };
 
 /* Expert Challenge */
