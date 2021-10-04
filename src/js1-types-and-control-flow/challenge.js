@@ -159,7 +159,7 @@ const pascalCaseVariableName = "IWantToBeSnakeCase";
 
 export const convertPascalCaseToSnakeCase = () => {
   // Write your code here
-  const pascalCaseChange = pascalCaseVariableName.split(/[A-Z]/);
+  const pascalCaseChange = pascalCaseVariableName.split(/(?=[?A-Z])/);
   const addUnderScore = pascalCaseChange.join("_");
   const snakeCase = addUnderScore.toLowerCase();
 
