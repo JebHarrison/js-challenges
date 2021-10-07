@@ -26,7 +26,7 @@ describe("createFullName() tests", () => {
   });
 });
 
-xdescribe("findSmallestNumber() tests", () => {
+describe("findSmallestNumber() tests", () => {
   it("Should have a return", () => {
     expect(findSmallestNumber(100, 200)).toBeDefined();
   });

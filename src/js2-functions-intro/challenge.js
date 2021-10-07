@@ -29,8 +29,13 @@ export const createFullName = (firstName, lastName) => {
  * @param {number} number2 200
  * @returns {number} 100
  */
-export const findSmallestNumber = (/* Write the parameters here */) => {
+export const findSmallestNumber = (number1, number2) => {
   /* Write your code here */
+  if (number1 < number2){
+    return number1;
+  }if (number2 < number1){
+    return number2;
+  }
 };
 
 /**
