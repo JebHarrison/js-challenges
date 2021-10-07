@@ -55,7 +55,7 @@ describe("multiplyNumbers() tests", () => {
   });
 });
 
-xdescribe("checkIfNewHighScore() tests", () => {
+describe("checkIfNewHighScore() tests", () => {
   it("Should have a return", () => {
     expect(checkIfNewHighScore(300, 325)).toBeDefined();
   });
