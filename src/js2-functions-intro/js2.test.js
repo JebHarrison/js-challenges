@@ -73,7 +73,7 @@ describe("checkIfNewHighScore() tests", () => {
   });
 });
 
-xdescribe("celsiusToFahrenheit() tests", () => {
+describe("celsiusToFahrenheit() tests", () => {
   it("Should have a return", () => {
     expect(celsiusToFahrenheit(15)).toBeDefined();
   });
