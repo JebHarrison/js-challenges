@@ -46,8 +46,9 @@ export const findSmallestNumber = (number1, number2) => {
  * @param {number} number2 6
  * @returns {number} 18
  */
-export const multiplyNumbers = (/* Write the parameters here */) => {
+export const multiplyNumbers = (number1, number2) => {
   /* Write your code here */
+  return number1 * number2
 };
 
 /* Intermediate Challenges */
