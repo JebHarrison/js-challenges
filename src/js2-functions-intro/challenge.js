@@ -65,6 +65,13 @@ export const multiplyNumbers = (number1, number2) => {
  */
 export const checkIfNewHighScore = (score, highScore) => {
   /* Write your code here */
+  if (score > highScore){
+    return "You got a new high score!";
+  } if (score === highScore){
+    return "So close!";
+  } else (score < highScore); {
+    return "Better luck next time!"
+  }
 };
 
 /**
