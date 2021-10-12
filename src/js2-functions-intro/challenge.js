@@ -187,7 +187,5 @@ export const getStudentSummary = (score, name) => {
                 return `Sorry ${name}. You achieved a grade of F. There's always next year.`
                 default:
                 return `My apologies ${name}, there's been an error in processing your grade.`
-                
-
-  }
+                }
 };
