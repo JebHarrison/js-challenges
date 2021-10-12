@@ -119,7 +119,24 @@ export const calculateLifetimeSupply = (snickersPerDay, age, maxAge) => {
  */
 export const getGrade = (score) => {
   /* Write your code here */
-};
+  if (score > 100 || score < 0 || typeof score !== "number") {
+    return "Score unavailable";
+  }
+  
+  if (score >= 80) {
+    return "A"; 
+  } else if (score >= 70) {
+    return "B";
+  } else if (score >= 60) {
+    return "C";
+  } else if (score >= 50) {
+    return "D";
+  } else if (score >= 40) {
+    return "E";
+  } else {
+    return "F";
+  }
+ };
 
 /**
  * A function that find the area of a circle to 2 decimal places.
