@@ -170,4 +170,24 @@ export const calculateAreaOfCircle = (radius) => {
  */
 export const getStudentSummary = (score, name) => {
   /* Write your code here */
+  const letterName = getGrade(score);
+
+  switch (letterName){
+    case "A":
+      return `Congratulations ${name}! You achieved a grade of A.`;
+      case "B":
+        return `Well done ${name}! You achieved a grade of B.`;
+        case "C":
+          return `Nicely done ${name}! You achieved a grade of C.`;
+            case "D":
+            return `That's okay ${name}. You achieved a grade of D.`;
+              case "E":
+              return `Too bad ${name}. You achieved a grade of E.`
+                case "F":
+                return `Sorry ${name}. You achieved a grade of F. There's always next year.`
+                default:
+                return `My apologies ${name}, there's been an error in processing your grade.`
+                
+
+  }
 };
