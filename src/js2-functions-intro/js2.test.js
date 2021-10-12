@@ -101,7 +101,7 @@ xdescribe("calculateLifeTimeSupply() tests", () => {
   });
 });
 
-xdescribe("getGrade() tests", () => {
+describe("getGrade() tests", () => {
   it("Should have a return", () => {
     expect(getGrade(70)).toBeDefined();
   });
