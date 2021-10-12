@@ -82,6 +82,9 @@ export const checkIfNewHighScore = (score, highScore) => {
  */
 export const celsiusToFahrenheit = (tempInCelsius) => {
   /* Write your code here */
+  const formula = ( 15 * 9/5) + 32;
+  const celsiusToFahrenheit = 15 + " degrees celsius is " + formula  + " degrees fahrenheit";
+  return celsiusToFahrenheit
 };
 
 /**
