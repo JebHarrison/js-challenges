@@ -144,7 +144,7 @@ describe("getGrade() tests", () => {
   });
 });
 
-xdescribe("calculateAreaOfCircle() tests", () => {
+describe("calculateAreaOfCircle() tests", () => {
   it("Should have a return", () => {
     expect(calculateAreaOfCircle(3)).toBeDefined();
   });
