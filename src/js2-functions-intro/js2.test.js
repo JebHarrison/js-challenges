@@ -87,7 +87,7 @@ describe("celsiusToFahrenheit() tests", () => {
   });
 });
 
-xdescribe("calculateLifeTimeSupply() tests", () => {
+describe("calculateLifeTimeSupply() tests", () => {
   it("Should have a return", () => {
     expect(calculateLifetimeSupply(2, 25, 90)).toBeDefined();
   });
@@ -101,7 +101,7 @@ xdescribe("calculateLifeTimeSupply() tests", () => {
   });
 });
 
-describe("getGrade() tests", () => {
+xdescribe("getGrade() tests", () => {
   it("Should have a return", () => {
     expect(getGrade(70)).toBeDefined();
   });
