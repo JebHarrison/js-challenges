@@ -98,8 +98,9 @@ export const celsiusToFahrenheit = (tempInCelsius) => {
  */
 export const calculateLifetimeSupply = (snickersPerDay, age, maxAge) => {
   /* Write your code here */
+ const numberOfsnickers = (365 * snickersPerDay) * (maxAge - age)
+ return numberOfsnickers
 };
-
 /* Advanced Challenges */
 
 /**
