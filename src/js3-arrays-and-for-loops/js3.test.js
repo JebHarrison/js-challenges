@@ -58,7 +58,7 @@ describe("Testing getFirstAndLastItems()", () => {
   });
 });
 
-xdescribe("Testing totalScores()", () => {
+describe("Testing totalScores()", () => {
   it("Should be defined", () => {
     expect(totalScores(scores)).toBeDefined();
   });
