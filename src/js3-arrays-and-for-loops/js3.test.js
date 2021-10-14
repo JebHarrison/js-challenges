@@ -81,7 +81,7 @@ describe("Testing totalScores()", () => {
   });
 });
 
-xdescribe("Testing totalRange()", () => {
+describe("Testing totalRange()", () => {
   it("Should be defined", () => {
     expect(totalRange(10)).toBeDefined();
   });
@@ -102,7 +102,7 @@ xdescribe("Testing totalRange()", () => {
   });
 });
 
-describe("Testing moveFirstAndLastItems()", () => {
+xdescribe("Testing moveFirstAndLastItems()", () => {
   it("Should be defined", () => {
     expect(moveFirstAndLastItems(items)).toBeDefined();
   });
