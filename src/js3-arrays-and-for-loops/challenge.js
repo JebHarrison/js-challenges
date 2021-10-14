@@ -34,7 +34,11 @@ export const createRecipeString = (ingredientsArr) => {
  */
 
 export const getFirstAndLastItems = (itemsArr) => {
-  return;
+  const first = itemsArr[0];
+  const last = itemsArr[itemsArr.length - 1];
+
+  return [first, last];
+  
 };
 
 /**
