@@ -49,8 +49,13 @@ export const getFirstAndLastItems = (itemsArr) => {
  */
 
 export const totalScores = (scoreArr) => {
-  for (let i = 0; i < 3 ; i++)
-  return;
+  let total = 0;
+  for (let index = 0; index < scoreArr.length; index ++){
+    total += scoreArr[index];
+  }
+    return total
+  
+  
 };
 
 /**
