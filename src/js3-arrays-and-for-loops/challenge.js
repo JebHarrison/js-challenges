@@ -71,10 +71,11 @@ export const totalScores = (scoreArr) => {
  */
 
 export const totalRange = (rangeMax) => {
-  for(let index = 10; index < 55; index++){
+  const total = 55
+  for(let index = 10; total.length < 55; index++){
 
   }
-  return;
+  return index;
 };
 
 /**
