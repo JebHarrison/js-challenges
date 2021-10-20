@@ -72,7 +72,7 @@ export const totalScores = (scoreArr) => {
 
 export const totalRange = (rangeMax) => {
   let total = 0;
-  for(let index = 0; rangeMax <= index++;){
+  for(let index = 0; index <= rangeMax; index++){
     total += index;
   }
   return total;
