@@ -71,11 +71,11 @@ export const totalScores = (scoreArr) => {
  */
 
 export const totalRange = (rangeMax) => {
-  const total = 55
-  for(let index = 10; total.length < 55; index++){
-
+  let total = 0;
+  for(let index = 0; rangeMax <= index++;){
+    total += index;
   }
-  return index;
+  return total;
 };
 
 /**
@@ -86,7 +86,10 @@ export const totalRange = (rangeMax) => {
  */
 
 export const moveFirstAndLastItems = (itemsArr) => {
-  return;
+  const result = [...itemsArr];
+  const lastItem = result.pop();
+  result.unshift(lastItem);
+  return result;
 };
 
 /**
