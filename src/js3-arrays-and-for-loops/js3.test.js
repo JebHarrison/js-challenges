@@ -117,7 +117,7 @@ describe("Testing moveFirstAndLastItems()", () => {
   });
 });
 
-xdescribe("Testing removeEvenNumbers()", () => {
+describe("Testing removeEvenNumbers()", () => {
   it("Should be defined", () => {
     expect(removeEvenNumbers(scores)).toBeDefined();
   });
