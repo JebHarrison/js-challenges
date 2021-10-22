@@ -107,7 +107,13 @@ export const moveFirstAndLastItems = (itemsArr) => {
  */
 
 export const removeEvenNumbers = (numberArr) => {
-   const oddNumbers = [...numberArr];
+   const oddNumbers = [];
+   for (let index = 0; index < numberArr.length ; index ++){
+     let current = numberArr[index];
+     if(current % 2 !==0){
+       oddNumbers.push(current);
+     } 
+   }
    return oddNumbers;
 };
 
