@@ -107,8 +107,8 @@ export const moveFirstAndLastItems = (itemsArr) => {
  */
 
 export const removeEvenNumbers = (numberArr) => {
-  //  const numberArr = [...Number.removeEvenNumbers];
-  // return numberArr;
+   const oddNumbers = [...numberArr];
+   return oddNumbers;
 };
 
 /**
