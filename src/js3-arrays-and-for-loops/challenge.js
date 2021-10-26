@@ -130,7 +130,10 @@ export const removeEvenNumbers = (numberArr) => {
  */
 
 export const generateAverage = (numberArr) => {
-  return;
+   const numberArr = [];
+   for (let index = 0; index < numberArr.length; index++)
+   let current = numberArr.length[index];
+  return numberArr.toFixed(2);
 };
 
 /**
