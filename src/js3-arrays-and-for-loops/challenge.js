@@ -131,6 +131,7 @@ export const removeEvenNumbers = (numberArr) => {
 
 export const generateAverage = (numberArr) => {
    const total = totalScores(numberArr);
+   const average = total / numberArr.length
    
    }
    return numberArr.length;
