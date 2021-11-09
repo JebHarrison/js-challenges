@@ -39,7 +39,11 @@ export const removeFalseValues = (booleanArr) => {
  */
 
 export const createPercentageList = (numbersArr) => {
-  return;
+  let numbers = numbersArr.filter < 1;
+  if (numbersArr < 1){
+    return true;
+  } 
+  return numbers.percentToGet();
 };
 
 /**

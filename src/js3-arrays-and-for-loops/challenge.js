@@ -170,6 +170,10 @@ export const reverseOrder = (toReverseArr) => {
  */
 
 export const generateHighscores = (playersArr, scoresArr) => {
+  let playerScoreArr = [];
+  for (let i = 0; i  < playersArr.length; i++){
+    
+  }
   return;
 };
 
