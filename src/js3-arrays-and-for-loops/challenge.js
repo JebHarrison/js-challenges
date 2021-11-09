@@ -144,7 +144,11 @@ export const generateAverage = (numberArr) => {
  */
 
 export const reverseOrder = (toReverseArr) => {
-  return;
+  const reversed = [];
+  for (let index = toReverseArr.length - 1; index >= 0; index--){
+    reversed.push(toReverseArr[index]);
+  }
+  return reversed;
 };
 
 /**
