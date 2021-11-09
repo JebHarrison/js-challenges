@@ -130,14 +130,12 @@ export const removeEvenNumbers = (numberArr) => {
  */
 
 export const generateAverage = (numberArr) => {
-   var numberArr = [1,2,3];
-   for (let index = 0; index < numberArr.length; index++){
-     numberArr += parseInt(numberArr[index], 10);
+   const total = totalScores(numberArr);
+   
    }
    return numberArr.length;
   
 };
-
 /**
  * A function that uses a loop to reverse the order of an Array. It should return a NEW ARRAY and not Mutate the orginal array.
  *
