@@ -54,7 +54,10 @@ export const createPercentageList = (numbersArr) => {
  */
 
 export const createListOfPoessessions = (possessionsArr, name) => {
-  return;
+  const poessesionList = possessionsArr.map((possession) => name + " " + possession);
+  
+    return poessesionList;
+    
 };
 
 /**
