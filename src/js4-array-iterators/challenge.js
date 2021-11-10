@@ -82,7 +82,8 @@ export const createListOfPoessessions = (possessionsArr, name) => {
  */
 
 export const convertStringToNumbersArray = (numberString) => {
-  return;
+  const convetString = numberString.split("+").map((number) => Number(number));
+  return convetString;
 };
 
 /**
