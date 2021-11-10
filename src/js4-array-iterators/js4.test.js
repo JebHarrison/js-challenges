@@ -70,7 +70,7 @@ describe("Testing createPercentageList()", () => {
   });
 });
 
-xdescribe("Testing createListOfPoessessions()", () => {
+describe("Testing createListOfPoessessions()", () => {
   it("Should return an array", () => {
     expect(Array.isArray(createListOfPoessessions(possessions, "Matt's"))).toBe(true);
   });
