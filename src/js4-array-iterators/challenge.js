@@ -95,6 +95,7 @@ export const convertStringToNumbersArray = (numberString) => {
  */
 
 export const createOddEvenArray = (numberString) => {
+  const numbers = numberString.map(() =>);
   return;
 };
 
