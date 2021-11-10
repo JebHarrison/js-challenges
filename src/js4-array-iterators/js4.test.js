@@ -97,7 +97,7 @@ describe("Testing createListOfPoessessions()", () => {
   });
 });
 
-xdescribe("Testing convertStringToNumbersArray()", () => {
+describe("Testing convertStringToNumbersArray()", () => {
   it("Should return an array", () => {
     expect(Array.isArray(convertStringToNumbersArray(numbersCSV))).toBe(true);
   });
