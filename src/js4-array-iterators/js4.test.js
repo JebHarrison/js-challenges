@@ -123,7 +123,7 @@ describe("Testing convertStringToNumbersArray()", () => {
   });
 });
 
-xdescribe("Testing createOddEvenArray()", () => {
+describe("Testing createOddEvenArray()", () => {
   it("Should return an array", () => {
     expect(Array.isArray(createOddEvenArray(numbersCSV))).toBe(true);
   });
