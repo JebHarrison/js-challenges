@@ -95,8 +95,9 @@ export const convertStringToNumbersArray = (numberString) => {
  */
 
 export const createOddEvenArray = (numberString) => {
-  const numbers = numberString.map(() =>);
-  return;
+  const numberArray = convertStringToNumbersArray(numberString);
+  const oddEvenArray = numberArray.map((number) => (number % 2 === 0 ? "even" : "odd"));
+  return oddEvenArray;
 };
 
 /**
