@@ -110,7 +110,8 @@ export const createOddEvenArray = (numberString) => {
  */
 
 export const filterBooksBySearch = (booksArr, searchTerm) => {
-  return;
+  const searchResult = booksArr.filter((book) => book.includes(searchTerm));
+  return searchResult;
 };
 
 /**
